@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="NavigationApp.SegPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="segunda tela"
+               FontSize="30"
+               HorizontalOptions="Center" 
+               VerticalOptions="CenterAndExpand" />
+        
+        <Button Text="Voltar"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="End"
+                Clicked="VoltarProInicio" />
+        
+        
+        
+        
+        
+    </StackLayout>
+</ContentPage>
